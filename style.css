@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #DEDBDB;
+}
+
+.container {
+    max-width: 380px;
+    height: 400px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.logo {
+    width: 80px;
+}
+
+.offer-link {
+    color: #e63946;
+    text-decoration: none;
+    float: right;
+    font-size: 1;
+}
+
+h1 {
+    font-size: 2;
+    margin-bottom: 20px;
+    color: #0E0D5D;
+    margin-top: 90px;
+}
+
+.role-selection {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.text{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.password{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.shokh{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+   
+
+
+button {
+    width: 150px;
+    padding: 10px;
+    background-color: #F69E86;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.qr-text {
+    font-size: 15px;
+    color: #666;
+    margin-top: 10px;
+}
